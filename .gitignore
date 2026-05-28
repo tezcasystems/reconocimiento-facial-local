@@ -1,0 +1,32 @@
+# ── Entorno virtual Python ────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Base de datos (generada localmente) ───────────────────────────────────────
+face_recognition_system/data/database/
+face_recognition_system/data/logs/
+
+# ── Modelos ONNX (~40 MB, se descargan con setup_models.py) ──────────────────
+face_recognition_system/data/models/
+
+# ── Caché de Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Archivos de IDE / sistema ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ── Archivos temporales ───────────────────────────────────────────────────────
+*.tmp
+*.log
+_tmp.py
